@@ -1,0 +1,17 @@
+{
+    "name": "foxyrommel/project-manao",
+    "description": "Login and register",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Olga Karalkina",
+            "email": "belocnejka52@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-json": "*",
+        "firebase/php-jwt": "^6.3",
+        "eftec/bladeone": "^4.5"
+    }
+}
