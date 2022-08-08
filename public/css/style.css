@@ -1,0 +1,67 @@
+body {
+    background-image: url("../images/bg.jpg");
+}
+
+.container
+{
+    font-family: arial, serif;
+    font-size: 28px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.success-req{
+    text-align: center;
+    margin: 0 auto;
+    color: red;
+}
+
+.failed-req{
+    text-align: center;
+    margin: 0 auto;
+    color: red
+}
+
+input.input-text{
+    font-family: arial, serif;
+    font-size: 28px
+}
+
+.center-inner {
+    margin: 0 auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+hr {
+    border: none;
+    border-top: 6px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+button {
+    font-family: arial, serif;
+    font-size: 28px;
+    width: 150px;
+    height: 45px;
+    background-color: cornflowerblue;
+}
+
+button:hover {
+    transition-duration: 0.533s;
+    background-color: darkblue;
+    color: white;
+}
